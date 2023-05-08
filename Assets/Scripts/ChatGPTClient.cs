@@ -44,6 +44,7 @@ public class ChatGPTClient : GPTClient
 
     private static string[] Uris = new[]
     {
+        "https://api.openai.com/v1/chat/completions",
         "https://api.openai-asia.com/v1/chat/completions", 
         //"https://192.168.1.9:5000/api/v1/generate"
     };
